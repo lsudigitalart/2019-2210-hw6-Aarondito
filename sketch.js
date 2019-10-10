@@ -6,7 +6,10 @@ function setup() {
   img = loadImage('Thing.jpg');
  frameRate(1)
 }
-
+function preload() {
+    // preload() runs once
+    img = loadImage('Thing.jpg');
+  }
 function draw() {
     background(220) 
 image(img, 0, 0);
@@ -17,4 +20,5 @@ let word = random(words); // select random word
 text(word, 100, 50); // draw the word
 text(word, 120, 200); 
 text(word, 5, 8); 
+noLoop();
 }
