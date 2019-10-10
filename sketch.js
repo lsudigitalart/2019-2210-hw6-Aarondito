@@ -14,7 +14,7 @@ function draw() {
 image(img, 0, 0);
 
 // Get a random element from an array using the random(Array) syntax
-let words = ['I AM FEAR', 'I FOLLOWED YOU', 'DONT YOU LIKE MY SONG'];
+let words = ['I AM FEAR', 'I FOLLOWED YOU', 'DONT YOU LIKE MY SONG','SHADOWS','WANNA PLAY'];
 let word = random(words); // select random word
 text(word, 100, 50); // draw the word
 noLoop();
